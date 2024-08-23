@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form label:first-child {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11px;
+}
+
+.form fieldset {
+  margin: 0;
+}
+.form button {
+  margin-top: 11px;
+  width: 196px;
+}
+.form label:first-child input {
+  width: 190px;
+}
